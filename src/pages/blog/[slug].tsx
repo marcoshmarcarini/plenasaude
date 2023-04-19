@@ -130,7 +130,8 @@ const RenderPost = ({ post, redirect, preview }) => {
     return (
       <div className={blogStyles.post}>
         <p>
-          Woops! didn't find that post, redirecting you back to the blog index
+          Woops! Não foram encontrados posts, redirecionando para a página
+          inicial do blog.
         </p>
       </div>
     )
